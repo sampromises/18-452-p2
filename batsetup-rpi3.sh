@@ -1,7 +1,8 @@
 # INSTRUCTIONS:
 # 0) Modify IP address below to pi number (1, 2, 3, ...)
 # 1) Place this fill in home directory (/home/pi)
-# 2) Add to '/etc/rc.local' this line: '/home/pi/batsetup-rpi3.sh'
+# 2) chmod +x /home/pi/batsetup-rpi3.sh
+# 3) Add to '/etc/rc.local' this line: '/home/pi/batsetup-rpi3.sh'
 
 # USEFUL SOURCES:
 # https://www.reddit.com/r/darknetplan/comments/68s6jp/how_to_configure_batmanadv_on_the_raspberry_pi_3/
