@@ -1,0 +1,7 @@
+To SSH into a Pi that's on bat mesh:
+1) Physically connect ethernet cable
+2) Run script on pi to create 'bridge-mesh'
+3) Join 'bridge-mesh' on laptop
+4) Run `nmap -n -sP 192.168.2.1/24`, or whatever IP is of inconfig, bridge100
+5) `arp -a` to see list of hosts (Pis will start 192.168.2.2 and increment)
+6) ssh pi@192.168.2.X, password is 'raspberry'
