@@ -1,0 +1,14 @@
+# P2
+- Get 'mock' data from a source (e.g. a heartbeat)
+- Encode the data and send
+    - Marshalling, error encoding
+- Needs to be more interesting
+    - Hospital floors are big?
+    - Would WiFi be good?
+    - Create a more challenging set up?
+
+- Can tie in distributed topics?
+    - Consensus algorithms?
+    - How to deal with network issues in algorithms
+
+- See something by Tuesday

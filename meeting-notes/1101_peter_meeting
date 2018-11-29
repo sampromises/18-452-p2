@@ -1,0 +1,33 @@
+Need to add on top of ZigBee
+- Adding reliability with the marshalling/unmarshalling process
+- Error coding
+- Adding redundancy on the network
+    - If you get X/Y packets, you are able to decode
+    - B/c we have a central node
+    - Won't work if ZigBee is super reliable
+
+- Adding 'relays' to the network
+    - A -> B <- C
+    - B needs to extrapolate packets from A and C
+
+- Think about ZigBee vs WiFi
+- Hardware requireemnts for ZigBee
+
+Steps:
+1) Collect hardware requirements
+2) Improvement to idea
+
+Survey Commentary
+- Focus on changes in *techniques* used in the standards
+- i.e. interest in using WiFi in *lower frequency bands*
+- Talk about advantages of using different techniques
+    - Different problems/requirements:
+        - Unused spectrum
+        - Power consumption
+        - Lower Range
+- Cherry pick sections from papers
+
+- Top down approach
+    - Requirements -> Changing technologies -> Light on details
+
+- Professor will pick

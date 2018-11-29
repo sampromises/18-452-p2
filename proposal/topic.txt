@@ -1,0 +1,8 @@
+Biomedical Wireless Devices
+- Sleep monitoring bed (like Juvo Labs)
+- Human movement detection using wearable sensors
+    - The goal is to explore the possibility of using wearable wireless sensors to detect human kinesthetic movements. Patients/subjects would wear wireless sensors on their joints. Then, positional data and varying signal strength metrics could be recorded and analyzed to make conclusions about the wearer's body movements. There are several options for the types of sensors we can use: accelerometers, ultrasonic sensors, and infrared (e.g. PIR). The decision will most likely come down to feasability and cost.
+    - See also: https://ieeexplore.ieee.org/document/5168662
+
+- Detection of wireless IoT devices (e.g. Alexa, Google Home)
+    - http://www.cpp.edu/~polysec/network/icncc.pdf

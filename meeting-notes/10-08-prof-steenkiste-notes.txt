@@ -1,0 +1,22 @@
+Detect kind of wireless protocol
+Data layer -> encrypted
+Physical layer -> 
+
+Plug-and-play
+- auto configuration of things
+
+What kind of standard protocols do these IoT devices use to 'announce' themselves?
+
+Paper using DNS lookups and ML to discover type of device
+- Not sure if home IoT devices would have DNS names
+
+Challenge: How to discover these devices?
+More points:
+- Localizing these devices?
+
+At this point:
+- Look at research papers to see what can be done
+    - If close enough to where we want to go, then can skim thru the research papers to see direction
+- Lookup "IoT discovery protocols"
+    - Most of home networks are WiFi
+    - Usually a broadcast
