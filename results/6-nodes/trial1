@@ -1,0 +1,78 @@
+SESSION IP TABLE:
+192.168.2.5 = Node 1
+192.168.2.36 = Node 2
+192.168.2.38 = Node 3
+192.168.2.39 = Node 5
+192.168.2.40 = Node 6
+192.168.2.41 = Node 4
+192.168.2.42 = Node 7
+
+SETUP:
+~3/4 wall distance
+~5m distance
+
+6 STREAMING CONCURRENTLY:
+[  7] local 192.168.2.5 port 8080 connected with 192.168.2.37 port 49378
+[  4] local 192.168.2.5 port 8080 connected with 192.168.2.38 port 48266
+[  5] local 192.168.2.5 port 8080 connected with 192.168.2.41 port 41190
+[  6] local 192.168.2.5 port 8080 connected with 192.168.2.42 port 40084
+[  9] local 192.168.2.5 port 8080 connected with 192.168.2.39 port 59236
+[  8] local 192.168.2.5 port 8080 connected with 192.168.2.40 port 45248
+[  9]  0.0-29.1 sec  5.40 MBytes  1.56 Mbits/sec
+[  5]  0.0-29.6 sec  8.89 MBytes  2.52 Mbits/sec
+[  6]  0.0-29.9 sec  6.45 MBytes  1.81 Mbits/sec
+[  8]  0.0-30.0 sec  8.30 MBytes  2.32 Mbits/sec
+[  7]  0.0-30.8 sec  12.5 MBytes  3.40 Mbits/sec
+[  4]  0.0-30.0 sec  8.93 MBytes  2.49 Mbits/sec
+AVG: 2.35
+STD: 0.5870264048575669
+
+6 TDM, TIMESLOT = 0.05
+[ 10] local 192.168.2.5 port 8080 connected with 192.168.2.41 port 41196
+[  4] local 192.168.2.5 port 8080 connected with 192.168.2.38 port 48272
+[  5] local 192.168.2.5 port 8080 connected with 192.168.2.37 port 49384
+[  7] local 192.168.2.5 port 8080 connected with 192.168.2.40 port 45254
+[  6] local 192.168.2.5 port 8080 connected with 192.168.2.42 port 40090
+[  8] local 192.168.2.5 port 8080 connected with 192.168.2.39 port 59242
+[  8]  0.0-29.0 sec  8.48 MBytes  2.46 Mbits/sec
+[ 10]  0.0-30.0 sec  8.52 MBytes  2.39 Mbits/sec
+[  5]  0.0-29.8 sec  7.76 MBytes  2.18 Mbits/sec
+[  6]  0.0-29.8 sec  4.92 MBytes  1.38 Mbits/sec
+[  4]  0.0-30.1 sec  11.8 MBytes  3.29 Mbits/sec
+[  7]  0.0-30.0 sec  11.2 MBytes  3.13 Mbits/sec
+AVG: 2.4716666666666662
+STD: 0.630698466428733
+
+
+6 TDM, TIMESLOT = 0.1 -> Idea: TDM improves fairness? std
+[ 10] local 192.168.2.5 port 8080 connected with 192.168.2.38 port 48268
+[  4] local 192.168.2.5 port 8080 connected with 192.168.2.42 port 40086
+[  5] local 192.168.2.5 port 8080 connected with 192.168.2.40 port 45250
+[  7] local 192.168.2.5 port 8080 connected with 192.168.2.37 port 49380
+[  6] local 192.168.2.5 port 8080 connected with 192.168.2.39 port 59238
+[  8] local 192.168.2.5 port 8080 connected with 192.168.2.41 port 41192
+[  6]  0.0-28.2 sec  6.30 MBytes  1.87 Mbits/sec
+[  8]  0.0-28.9 sec  9.59 MBytes  2.78 Mbits/sec
+[  7]  0.0-29.1 sec  7.14 MBytes  2.06 Mbits/sec
+[  5]  0.0-29.2 sec  7.23 MBytes  2.08 Mbits/sec
+[  4]  0.0-29.5 sec  5.10 MBytes  1.45 Mbits/sec
+[ 10]  0.0-30.0 sec  9.39 MBytes  2.63 Mbits/sec
+AVG: 2.14
+STD: 0.44880396611438267
+
+
+6 TDM, TIMESLOT = 0.25
+[  9] local 192.168.2.5 port 8080 connected with 192.168.2.37 port 49382
+[  4] local 192.168.2.5 port 8080 connected with 192.168.2.40 port 45252
+[  6] local 192.168.2.5 port 8080 connected with 192.168.2.38 port 48270
+[  7] local 192.168.2.5 port 8080 connected with 192.168.2.41 port 41194
+[  5] local 192.168.2.5 port 8080 connected with 192.168.2.39 port 59240
+[  8] local 192.168.2.5 port 8080 connected with 192.168.2.42 port 40088
+[  5]  0.0-29.4 sec  3.49 MBytes   995 Kbits/sec
+[  6]  0.0-29.5 sec  7.70 MBytes  2.19 Mbits/sec
+[  7]  0.0-29.6 sec  4.08 MBytes  1.16 Mbits/sec
+[  4]  0.0-29.8 sec  3.93 MBytes  1.11 Mbits/sec
+[  9]  0.0-31.0 sec  12.1 MBytes  3.28 Mbits/sec
+[  8]  0.0-29.6 sec  4.93 MBytes  1.40 Mbits/sec
+AVG: 1.6891666666666667
+STD: 0.8126623769369964

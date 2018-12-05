@@ -1,0 +1,29 @@
+TABLE:
+? (192.168.2.5) at 16:3a:43:2b:be:34 = NODE 1
+? (192.168.2.27) at 4e:3b:46:c6:6e:c8  = NODE 7
+? (192.168.2.28) at ae:5d:73:84:71:b6  = NODE 3
+? (192.168.2.29) at 6e:3c:19:9d:1b:74  = NODE 2
+? (192.168.2.30) at 8e:ab:87:93:93:d3  = NODE 4
+? (192.168.2.31) at 86:9:ed:95:2b:82  = NODE 5
+? (192.168.2.32) at a2:ca:e2:93:75:6b  = NODE 6
+
+METHOD:
+Time slot = 0.1
+
+Total time slots = 8
+[2][2][2][3][4][5][6][7]
+
+RESULTS:
+
+[ 10] local 192.168.2.5 port 8080 connected with 192.168.2.28 port 42112
+[  4] local 192.168.2.5 port 8080 connected with 192.168.2.29 port 38594
+[  5] local 192.168.2.5 port 8080 connected with 192.168.2.27 port 49410
+[  7] local 192.168.2.5 port 8080 connected with 192.168.2.31 port 43466
+[  6] local 192.168.2.5 port 8080 connected with 192.168.2.32 port 51022
+[  8] local 192.168.2.5 port 8080 connected with 192.168.2.30 port 46324
+[  7]  0.0-28.2 sec  9.05 MBytes  0.32 MBytes/sec
+[  8]  0.0-29.6 sec  17.7 MBytes  0.60 MBytes/sec
+[  6]  0.0-29.8 sec  8.57 MBytes  0.29 MBytes/sec
+[ 10]  0.0-30.3 sec  17.2 MBytes  0.57 MBytes/sec
+[  5]  0.0-29.9 sec  8.23 MBytes  0.28 MBytes/sec
+[  4]  0.0-30.4 sec  41.5 MBytes  1.36 MBytes/sec <-- NODE 2

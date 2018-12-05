@@ -1,0 +1,27 @@
+6 STREAM
+[ 10] local 192.168.2.5 port 8080 connected with 192.168.2.41 port 41200
+[  5] local 192.168.2.5 port 8080 connected with 192.168.2.37 port 49388
+[  6] local 192.168.2.5 port 8080 connected with 192.168.2.39 port 59246
+[  4] local 192.168.2.5 port 8080 connected with 192.168.2.38 port 48276
+[  7] local 192.168.2.5 port 8080 connected with 192.168.2.42 port 40094
+[  8] local 192.168.2.5 port 8080 connected with 192.168.2.40 port 45258
+[  4]  0.0-31.2 sec  3.37 MBytes   907 Kbits/sec
+[  8]  0.0-31.1 sec  3.21 MBytes   866 Kbits/sec
+[ 10]  0.0-31.4 sec  4.98 MBytes  1.33 Mbits/sec
+[  5]  0.0-31.4 sec  4.43 MBytes  1.19 Mbits/sec
+[  6]  0.0-31.6 sec  2.76 MBytes   733 Kbits/sec
+[  7]  0.0-31.6 sec  3.28 MBytes   870 Kbits/sec
+
+6 TDM, 0.05
+[  9] local 192.168.2.5 port 8080 connected with 192.168.2.41 port 41198
+[  4] local 192.168.2.5 port 8080 connected with 192.168.2.38 port 48274
+[  5] local 192.168.2.5 port 8080 connected with 192.168.2.37 port 49386
+[  6] local 192.168.2.5 port 8080 connected with 192.168.2.42 port 40092
+[  7] local 192.168.2.5 port 8080 connected with 192.168.2.40 port 45256
+[  8] local 192.168.2.5 port 8080 connected with 192.168.2.39 port 59244
+[  8]  0.0-29.6 sec  7.23 MBytes  2.05 Mbits/sec
+[  4]  0.0-30.0 sec  5.17 MBytes  1.45 Mbits/sec
+[  5]  0.0-30.1 sec  4.47 MBytes  1.25 Mbits/sec
+[  9]  0.0-30.1 sec  4.15 MBytes  1.15 Mbits/sec
+[  6]  0.0-30.0 sec  7.74 MBytes  2.17 Mbits/sec
+[  7]  0.0-30.1 sec  4.49 MBytes  1.25 Mbits/sec
