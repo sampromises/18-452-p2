@@ -1,0 +1,37 @@
+# Raspberry Pi Setup
+
+
+## Install airmon-ng tool
+```bash
+sudo apt-get install autoconf
+sudo apt-get install automake
+sudo apt-get install libtool
+sudo apt-get install shtool
+
+ wget https://download.aircrack-ng.org/aircrack-ng-1.4.tar.gz
+ tar -zxvf aircrack-ng-1.4.tar.gz
+ cd aircrack-ng-1.4
+ autoreconf -i
+ ./configure --with-experimental
+ make
+ make install
+```
+
+## Setting up mesh network with batman-ctl
+- Pretty much follow [this guide.](https://www.reddit.com/r/darknetplan/comments/68s6jp/how_to_configure_batmanadv_on_the_raspberry_pi_3/)
+
+1. First download and install batctl
+```bash
+sudo apt install libnl-3-dev libnl-genl-3-dev
+git clone https://git.open-mesh.org/batctl.git
+cd batctl
+sudo make install
+```
+
+2. Download the script into home directory
+- Get the script file from our repo:
+    - ````wget https://raw.githubusercontent.com/sampromises/18452-p2/master/batsetup-rpi3.sh```
+
+3. Change IP address in script to Pi number
+
+4. Modify /etc/rc.local
