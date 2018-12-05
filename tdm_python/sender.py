@@ -58,7 +58,7 @@ def send_data_control_experiment(ecg, emg, gsr):
 	k = 0
 	while True:
 		if i == len(ecg): break
-		skt.send(str(ecg[i]))
+		skt.send(bytes(ecg[i], 'utf-8'))
 		i += 1
 		# blocking - always wait for ACK before sending the next packet
 		#          - can change this and handle out of order packets
@@ -70,12 +70,12 @@ def send_data_control_experiment(ecg, emg, gsr):
 
 	while True:
 		if j == len(emg): break
-		skt.send(str(emg[j]))
+		skt.send(bytes(emg[j], 'utf-8'))
 		j += 1
 
 	while True:
 		if k == len(gsr): break
-		skt.send(str(gsr[k]))
+		skt.send(bytes(gsr[k], 'utf-8'))
 		k += 1
 
 	start = time.time()
