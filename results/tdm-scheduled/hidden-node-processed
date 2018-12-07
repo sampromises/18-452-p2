@@ -79,7 +79,7 @@ STREAM:
 {'node': '2', 'time': '32.7', 'data_units': 'KBytes', 'data_size': '2806', 'data_speed': '85.8'}
 {'node': '3', 'time': '33.5', 'data_units': 'KBytes', 'data_size': '1987', 'data_speed': '59.4'}
 {'node': '4', 'time': '33.0', 'data_units': 'KBytes', 'data_size': '974', 'data_speed': '29.6'}
-{'node': '5', 'time': '44.2', 'data_units': 'KBytes', 'data_size': '0', 'data_speed': '0.63'}
+{'node': '5', 'time': '44.2', 'data_units': 'KBytes', 'data_size': '28.0', 'data_speed': '0.63'}
 
 TDM:
 {'node': '1', 'time': '32.1', 'data_units': 'KBytes', 'data_size': '1458', 'data_speed': '45.5'}
@@ -115,10 +115,10 @@ TRIAL #1:
 
 STREAM:
 {'node': '1', 'time': '33.1', 'data_units': 'Kbits', 'data_size': '313', 'data_speed': '313'}
-{'node': '2', 'time': '33.2', 'data_units': 'Mbits', 'data_size': '70', 'data_speed': '1.70'}
-{'node': '3', 'time': '32.6', 'data_units': 'Mbits', 'data_size': '49', 'data_speed': '1.49'}
+{'node': '2', 'time': '33.2', 'data_units': 'Mbits', 'data_size': '1.70', 'data_speed': '1.70'}
+{'node': '3', 'time': '32.6', 'data_units': 'Mbits', 'data_size': '1.49', 'data_speed': '1.49'}
 {'node': '4', 'time': '36.8', 'data_units': 'Kbits', 'data_size': '344', 'data_speed': '344'}
-{'node': '5', 'time': '33.6', 'data_units': 'Kbits', 'data_size': '1', 'data_speed': '76.1'}
+{'node': '5', 'time': '33.6', 'data_units': 'Kbits', 'data_size': '76.1', 'data_speed': '76.1'}
 
 TDM:
 {'node': '1', 'time': '29.4', 'data_units': 'Kbits', 'data_size': '503', 'data_speed': '503'}
@@ -150,7 +150,7 @@ STREAM:
 {'node': '2', 'time': '31.2', 'data_units': 'KBytes', 'data_size': '3873', 'data_speed': '124'}
 {'node': '3', 'time': '30.7', 'data_units': 'KBytes', 'data_size': '6099', 'data_speed': '199'}
 {'node': '4', 'time': '31.1', 'data_units': 'KBytes', 'data_size': '2369', 'data_speed': '76.1'}
-{'node': '5', 'time': '32.8', 'data_units': 'KBytes', 'data_size': '0', 'data_speed': '1.16'}
+{'node': '5', 'time': '32.8', 'data_units': 'KBytes', 'data_size': '38.0', 'data_speed': '1.16'}
 
 TDM:
 {'node': '1', 'time': '30.7', 'data_units': 'KBytes', 'data_size': '2403', 'data_speed': '78.2'}
