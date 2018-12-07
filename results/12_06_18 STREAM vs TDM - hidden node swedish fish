@@ -1,0 +1,228 @@
+? (192.168.2.5) at 72:6d:c9:72:8:24 on bridge100 ifscope [bridge] = NODE 1
+? (192.168.2.50) at de:cc:e4:f5:df:b1 on bridge100 ifscope [bridge] = NODE 2
+? (192.168.2.51) at aa:91:44:3:5e:fb on bridge100 ifscope [bridge] = NODE 3
+? (192.168.2.52) at 5a:e0:bc:a9:4c:a8 on bridge100 ifscope [bridge] = NODE 4
+? (192.168.2.53) at 5a:d4:3b:2:13:51 on bridge100 ifscope [bridge] = NODE 5
+? (192.168.2.54) at da:2b:eb:a2:6:6a on bridge100 ifscope [bridge] = NODE 6
+
+
+
+================================================================================
+scenario Swedish Fish
+all sending to 6 in unique situation
+top is stream
+bottom is TDM, 0.1 window
+
+TRIAL #1:
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32880
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51272
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38818
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54504
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44726
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-30.5 sec  4.57 MBytes  160 KBytes/sec
+[  6]  0.0-30.5 sec  5.82 MBytes  200 KBytes/sec
+[  5]  0.0-31.5 sec  2.12 MBytes   70.5 KBytes/sec
+[  8]  0.0-29.7 sec   306 KBytes  10.56 KBytes/sec
+[  7]  0.0-32.2 sec   508 KBytes   16.1 KBytes/sec
+[  9] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51274
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32882
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54506
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38820
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44728
+[  4]  0.0-30.8 sec  3.19 MBytes   108.5 KBytes/sec
+[  5]  0.0-30.9 sec  2.50 MBytes   85 KBytes/sec
+[  9]  0.0-32.1 sec  2.57 MBytes   83.75 KBytes/sec
+[  7]  0.0-30.4 sec  1.03 MBytes   35.5 KBytes/sec
+[  6]  0.0-31.6 sec   892 KBytes   28.88 KBytes/sec
+
+TRIAL #2:
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51308
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32916
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44762
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38854
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54540
+[  7]  0.0-30.1 sec   956 KBytes  31.8 KBytes/sec
+[  5]  0.0-31.2 sec  4082 KBytes   131 KBytes/sec
+[  4]  0.0-31.3 sec  1468 KBytes  47.0 KBytes/sec
+[  6]  0.0-30.3 sec  2707 KBytes  89.3 KBytes/sec
+[  8]  0.0-31.7 sec  2038 KBytes  64.2 KBytes/sec
+[  9] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51310
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32918
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44764
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38856
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54542
+[  6]  0.0-30.3 sec  2701 KBytes  89.0 KBytes/sec
+[  4]  0.0-30.6 sec  3133 KBytes   102 KBytes/sec
+[  7]  0.0-30.4 sec   980 KBytes  32.2 KBytes/sec
+[  5]  0.0-30.8 sec  1267 KBytes  41.2 KBytes/sec
+[  9]  0.0-31.6 sec  2313 KBytes  73.1 KBytes/sec
+
+TRIAL #3:
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51316
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32924
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38862
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54548
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44770
+[  5]  0.0-31.3 sec  2984 KBytes  95.3 KBytes/sec
+[  7]  0.0-30.6 sec  1893 KBytes  61.9 KBytes/sec
+[  4]  0.0-32.0 sec  1314 KBytes  41.1 KBytes/sec
+[  8]  0.0-32.3 sec  1608 KBytes  49.7 KBytes/sec
+[  6]  0.0-32.3 sec   242 KBytes  7.49 KBytes/sec
+[  9] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51318
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32926
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38864
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44772
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54550
+[  4]  0.0-30.5 sec  2331 KBytes  76.5 KBytes/sec
+[  5]  0.0-30.1 sec  3553 KBytes   118 KBytes/sec
+[  6]  0.0-30.1 sec  2315 KBytes  77.0 KBytes/sec
+[  7]  0.0-30.1 sec   769 KBytes  25.5 KBytes/sec
+[  9]  0.0-31.6 sec  3729 KBytes   118 KBytes/sec
+
+================================================================================
+scenario Swedish Fish
+all sending to 6 in unique situation
+top is stream
+bottom is TDM, 0.3 window
+
+TRIAL #1:
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44774
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32928
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38866
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54552
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51320
+[  5]  0.0-30.2 sec  2945 KBytes  97.6 KBytes/sec
+[  4]  0.0-30.3 sec  5993 KBytes   198 KBytes/sec
+[  8]  0.0-30.7 sec   634 KBytes  20.7 KBytes/sec
+[  6]  0.0-31.2 sec  2260 KBytes  72.4 KBytes/sec
+[  7]  0.0-36.3 sec   147 KBytes  4.05 KBytes/sec
+[  9] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32930
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51322
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38868
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44776
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54554
+[  4]  0.0-30.8 sec  3445 KBytes   112 KBytes/sec
+[  6]  0.0-31.2 sec  1174 KBytes  37.7 KBytes/sec
+[  9]  0.0-32.2 sec  2674 KBytes  82.9 KBytes/sec
+[  5]  0.0-32.2 sec  4648 KBytes   144 KBytes/sec
+[  7]  0.0-35.6 sec   150 KBytes  4.22 KBytes/sec
+
+TRIAL #2:
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51324
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32932
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44778
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38870
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54556
+[  4]  0.0-32.7 sec  2806 KBytes  85.8 KBytes/sec
+[  5]  0.0-33.0 sec   974 KBytes  29.6 KBytes/sec
+[  6]  0.0-33.5 sec  1987 KBytes  59.4 KBytes/sec
+[  8]  0.0-34.6 sec  1628 KBytes  47.1 KBytes/sec
+[  7]  0.0-44.2 sec  28.0 KBytes  0.63 KBytes/sec
+[  9] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32934
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51326
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38872
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44780
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54558
+[  7]  0.0-29.4 sec   205 KBytes  6.98 KBytes/sec
+[  9]  0.0-30.8 sec  1909 KBytes  61.9 KBytes/sec
+[  5]  0.0-30.4 sec  2350 KBytes  77.4 KBytes/sec
+[  6]  0.0-30.7 sec  1178 KBytes  38.4 KBytes/sec
+[  4]  0.0-32.1 sec  1458 KBytes  45.5 KBytes/sec
+
+TRIAL #3:
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44790
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54568
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38882
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51336
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32944
+[  5]  0.0-32.4 sec   614 KBytes  18.9 KBytes/sec
+[  4]  0.0-34.2 sec  2509 KBytes  73.3 KBytes/sec
+[  8]  0.0-35.1 sec  1680 KBytes  47.9 KBytes/sec
+[  7]  0.0-34.0 sec  1229 KBytes  36.1 KBytes/sec
+[  6]  0.0-35.0 sec  1220 KBytes  34.9 KBytes/sec
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51338
+[  9] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32946
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44792
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54570
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38884
+[  7]  0.0-29.4 sec  1299 KBytes  44.2 KBytes/sec
+[  9]  0.0-30.6 sec  2485 KBytes  81.1 KBytes/sec
+[  5]  0.0-30.5 sec  1280 KBytes  41.9 KBytes/sec
+[  6]  0.0-30.6 sec  3170 KBytes   104 KBytes/sec
+[  4]  0.0-31.5 sec  2827 KBytes  89.9 KBytes/sec
+
+================================================================================
+scenario Swedish Fish
+all sending to 6 in unique situation
+top is stream
+bottom is TDM, 0.5 window
+
+TRIAL #1:
+
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51288
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44742
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32896
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38834
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54520
+[  6]  0.0-32.6 sec  5.80 MBytes  1.49 Mbits/sec
+[  8]  0.0-33.1 sec  1.23 MBytes   313 Kbits/sec
+[  4]  0.0-33.2 sec  6.73 MBytes  1.70 Mbits/sec
+[  5]  0.0-36.8 sec  1.51 MBytes   344 Kbits/sec
+[  7]  0.0-33.6 sec   312 KBytes  76.1 Kbits/sec
+[  9] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38836
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32898
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44744
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54522
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51290
+[  4]  0.0-28.3 sec  2.85 MBytes   845 Kbits/sec
+[  7]  0.0-28.7 sec  1.66 MBytes   484 Kbits/sec
+[  6]  0.0-29.2 sec  1.89 MBytes   543 Kbits/sec
+[  9]  0.0-29.2 sec  2.51 MBytes   721 Kbits/sec
+[  5]  0.0-29.4 sec  1.76 MBytes   503 Kbits/sec
+
+TRIAL #2:
+
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44754
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51300
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38846
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54532
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32908
+[  4]  0.0-31.1 sec  3493 KBytes   112 KBytes/sec
+[  8]  0.0-31.4 sec  3525 KBytes   112 KBytes/sec
+[  6]  0.0-31.8 sec  4982 KBytes   157 KBytes/sec
+[  5]  0.0-32.0 sec  1216 KBytes  38.0 KBytes/sec
+[  7]  0.0-32.2 sec  1280 KBytes  39.7 KBytes/sec
+[  9] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44756
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32910
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38848
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51302
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54534
+[  9]  0.0-28.8 sec  2093 KBytes  72.7 KBytes/sec
+[  4]  0.0-29.7 sec  2718 KBytes  91.6 KBytes/sec
+[  6]  0.0-29.2 sec  3405 KBytes   116 KBytes/sec
+[  5]  0.0-30.1 sec  3002 KBytes  99.8 KBytes/sec
+[  7]  0.0-31.2 sec  1475 KBytes  47.3 KBytes/sec
+
+TRIAL #3:
+
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44758
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51304
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38850
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32912
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54536
+[  6]  0.0-30.7 sec  6099 KBytes   199 KBytes/sec
+[  8]  0.0-31.1 sec  2369 KBytes  76.1 KBytes/sec
+[  4]  0.0-31.2 sec  3873 KBytes   124 KBytes/sec
+[  5]  0.0-31.4 sec  1441 KBytes  46.0 KBytes/sec
+[  7]  0.0-32.8 sec  38.0 KBytes  1.16 KBytes/sec
+[  9] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32914
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51306
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44760
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38852
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54538
+[  7]  0.0-29.6 sec  1399 KBytes  47.2 KBytes/sec
+[  4]  0.0-30.7 sec  2403 KBytes  78.2 KBytes/sec
+[  6]  0.0-29.8 sec  4771 KBytes   160 KBytes/sec
+[  9]  0.0-30.9 sec  3914 KBytes   127 KBytes/sec
+[  5]  0.0-30.1 sec  2191 KBytes  72.9 KBytes/sec

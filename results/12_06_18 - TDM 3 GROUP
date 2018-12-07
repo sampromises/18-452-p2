@@ -1,0 +1,95 @@
+? (192.168.2.5) at 72:6d:c9:72:8:24 on bridge100 ifscope [bridge] = NODE 1
+? (192.168.2.50) at de:cc:e4:f5:df:b1 on bridge100 ifscope [bridge] = NODE 2
+? (192.168.2.51) at aa:91:44:3:5e:fb on bridge100 ifscope [bridge] = NODE 3
+? (192.168.2.52) at 5a:e0:bc:a9:4c:a8 on bridge100 ifscope [bridge] = NODE 4
+? (192.168.2.53) at 5a:d4:3b:2:13:51 on bridge100 ifscope [bridge] = NODE 5
+? (192.168.2.54) at da:2b:eb:a2:6:6a on bridge100 ifscope [bridge] = NODE 6
+
+================================================================================
+================================================================================
+================================================================================
+
+6 = Receiver
+1 -> 2 -> 6
+5 -> 4 -> 6
+     3 -> 6
+
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 33004
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44826
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38944
+[  6]  0.0-30.0 sec  2753 KBytes  91.7 KBytes/sec
+[  4]  0.0-31.9 sec  4583 KBytes   144 KBytes/sec
+[  5]  0.0-32.3 sec  10933 KBytes   339 KBytes/sec
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38946
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 33006
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44830
+[  7]  0.0-31.1 sec  1013 KBytes  32.5 KBytes/sec
+[  4]  0.0-32.2 sec  6771 KBytes   210 KBytes/sec
+[  5]  0.0-33.4 sec  7493 KBytes   224 KBytes/sec
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38948
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 33008
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44832
+[  6]  0.0-30.3 sec  1479 KBytes  48.8 KBytes/sec
+[  5]  0.0-32.0 sec  2973 KBytes  93.0 KBytes/sec
+[  4]  0.0-32.3 sec  14443 KBytes   447 KBytes/sec
+
+================================================================================
+================================================================================
+================================================================================
+
+? (192.168.2.5) at 72:6d:c9:72:8:24 on bridge100 ifscope [bridge] = NODE 1
+? (192.168.2.50) at de:cc:e4:f5:df:b1 on bridge100 ifscope [bridge] = NODE 2
+? (192.168.2.52) at 5a:e0:bc:a9:4c:a8 on bridge100 ifscope [bridge] = NODE 4
+? (192.168.2.53) at 5a:d4:3b:2:13:51 on bridge100 ifscope [bridge] = NODE 5
+? (192.168.2.54) at da:2b:eb:a2:6:6a on bridge100 ifscope [bridge] = NODE 6
+? (192.168.2.56) at aa:91:44:3:5e:fb on bridge100 ifscope [bridge] = NODE 3
+
+6 = Receiver
+1 -> 2 -> 6
+5+3 -> 4 -> 6
+
+CONTROL (nodes on their own):
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 33022
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44852
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54656
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51430
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.56 port 48622
+[  4]  0.0-30.7 sec  3552 KBytes   116 KBytes/sec
+[  7]  0.0-31.6 sec  1235 KBytes  39.0 KBytes/sec
+[  8]  0.0-29.8 sec   378 KBytes  12.7 KBytes/sec
+[  5]  0.0-32.0 sec  1051 KBytes  32.8 KBytes/sec
+[  6]  0.0-32.7 sec  3204 KBytes  97.9 KBytes/sec
+[  9] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44854
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.56 port 48624
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 33024
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54658
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51432
+[  9]  0.0-31.6 sec  2925 KBytes  92.7 KBytes/sec
+[  4]  0.0-31.6 sec   667 KBytes  21.1 KBytes/sec
+[  5]  0.0-31.7 sec   998 KBytes  31.5 KBytes/sec
+[  7]  0.0-31.8 sec  1718 KBytes  54.0 KBytes/sec
+[  6]  0.0-31.8 sec  4278 KBytes   134 KBytes/sec
+[  8] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 33026
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44856
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51434
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54660
+[  7] local 192.168.2.54 port 8080 connected with 192.168.2.56 port 48626
+[  4]  0.0-30.5 sec  1776 KBytes  58.2 KBytes/sec
+[  5]  0.0-30.7 sec  2432 KBytes  79.1 KBytes/sec
+[  8]  0.0-30.9 sec  4254 KBytes   138 KBytes/sec
+[  7]  0.0-30.2 sec  1014 KBytes  33.5 KBytes/sec
+[  6]  0.0-31.0 sec  1584 KBytes  51.2 KBytes/sec
+
+NODES GROUPED:
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 33016
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44846
+[  5]  0.0-36.2 sec  5781 KBytes   160 KBytes/sec
+[  4]  0.0-37.3 sec  10381 KBytes   278 KBytes/sec
+[  6] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 33018
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44848
+[  4]  0.0-33.1 sec  5171 KBytes   156 KBytes/sec
+[  6]  0.0-34.4 sec  7796 KBytes   227 KBytes/sec
+[  5] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 33020
+[  4] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44850
+[  5]  0.0-33.3 sec  12155 KBytes   365 KBytes/sec
+[  4]  0.0-37.3 sec  4288 KBytes   115 KBytes/sec
