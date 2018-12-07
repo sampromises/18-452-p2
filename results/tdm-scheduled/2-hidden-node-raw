@@ -20,20 +20,20 @@ TRIAL #1:
 [  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54504
 [  8] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44726
 [ ID] Interval       Transfer     Bandwidth
-[  4]  0.0-30.5 sec  4.57 MBytes  160 KBytes/sec
-[  6]  0.0-30.5 sec  5.82 MBytes  200 KBytes/sec
-[  5]  0.0-31.5 sec  2.12 MBytes   70.5 KBytes/sec
-[  8]  0.0-29.7 sec   306 KBytes  10.56 KBytes/sec
-[  7]  0.0-32.2 sec   508 KBytes   16.1 KBytes/sec
+[  4]  0.0-30.5 sec  4880 KBytes    160 KBytes/sec
+[  6]  0.0-30.5 sec  6100 KBytes    200 KBytes/sec
+[  5]  0.0-31.5 sec  2221 KBytes   70.5 KBytes/sec
+[  8]  0.0-29.7 sec   313 KBytes  10.56 KBytes/sec
+[  7]  0.0-32.2 sec   518 KBytes   16.1 KBytes/sec
 [  9] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51274
 [  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32882
 [  6] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54506
 [  5] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38820
 [  7] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44728
-[  4]  0.0-30.8 sec  3.19 MBytes   108.5 KBytes/sec
-[  5]  0.0-30.9 sec  2.50 MBytes   85 KBytes/sec
-[  9]  0.0-32.1 sec  2.57 MBytes   83.75 KBytes/sec
-[  7]  0.0-30.4 sec  1.03 MBytes   35.5 KBytes/sec
+[  4]  0.0-30.8 sec  3341 KBytes   108.5 KBytes/sec
+[  5]  0.0-30.9 sec   213 KBytes      85 KBytes/sec
+[  9]  0.0-32.1 sec  2688 KBytes   83.75 KBytes/sec
+[  7]  0.0-30.4 sec  1079 KBytes    35.5 KBytes/sec
 [  6]  0.0-31.6 sec   892 KBytes   28.88 KBytes/sec
 
 TRIAL #2:

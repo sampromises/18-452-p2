@@ -1,0 +1,11 @@
+Stream vs TDM
+Location: Sam Home
+Senders placed close together = bad b/c CSMA/CD easily done
+
+{'node': '2', 'time': '30.8', 'data_units': 'Mbits', 'data_size': '40', 'data_speed': '3.40'}
+{'node': '3', 'time': '30.0', 'data_units': 'Mbits', 'data_size': '49', 'data_speed': '2.49'}
+{'node': '4', 'time': '29.6', 'data_units': 'Mbits', 'data_size': '52', 'data_speed': '2.52'}
+{'node': '5', 'time': '29.1', 'data_units': 'Mbits', 'data_size': '56', 'data_speed': '1.56'}
+{'node': '6', 'time': '30.0', 'data_units': 'Mbits', 'data_size': '32', 'data_speed': '2.32'}
+{'node': '7', 'time': '29.9', 'data_units': 'Mbits', 'data_size': '81', 'data_speed': '1.81'}
+[Finished in 1.0s]
