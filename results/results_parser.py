@@ -46,7 +46,7 @@ def get_results_one_trial(input_str='''
 '''):
     ip_to_node = get_ip_to_node() # Get IP to Node mapping
     trial_mapping = {} # Initialized in beginning
-    results = [] # List of tuples, (time, data_size, data_speed)
+    results = [] # List of each result (each result is a dict)
     
     for line in input_str.split('\n'):
         if not re.search(r'\[.*\d\]', line): continue # Ignore these lines
