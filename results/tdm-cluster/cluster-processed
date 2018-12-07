@@ -1,0 +1,93 @@
+WINDOW = 0.5
+
+================================================================================
+================================================================================
+================================================================================
+
+SETUP:
+6 = Receiver
+1 -> 2 -> 6
+5 -> 4 -> 6
+     3 -> 6
+
+CONTROL (NODES SENDING ON THEIR OWN AT SAME TIME):
+    TRIAL 1:
+    {'node': '1', 'time': '33.1', 'data_units': 'Kbits', 'data_size': '313', 'data_speed': '313'}
+    {'node': '2', 'time': '33.2', 'data_units': 'Mbits', 'data_size': '1.70', 'data_speed': '1.70'}
+    {'node': '3', 'time': '32.6', 'data_units': 'Mbits', 'data_size': '1.49', 'data_speed': '1.49'}
+    {'node': '4', 'time': '36.8', 'data_units': 'Kbits', 'data_size': '344', 'data_speed': '344'}
+    {'node': '5', 'time': '33.6', 'data_units': 'Kbits', 'data_size': '76.1', 'data_speed': '76.1'}
+
+    TRIAL 2:
+    {'node': '1', 'time': '32.0', 'data_units': 'KBytes', 'data_size': '1216', 'data_speed': '38.0'}
+    {'node': '2', 'time': '31.8', 'data_units': 'KBytes', 'data_size': '4982', 'data_speed': '157'}
+    {'node': '3', 'time': '31.1', 'data_units': 'KBytes', 'data_size': '3493', 'data_speed': '112'}
+    {'node': '4', 'time': '31.4', 'data_units': 'KBytes', 'data_size': '3525', 'data_speed': '112'}
+    {'node': '5', 'time': '32.2', 'data_units': 'KBytes', 'data_size': '1280', 'data_speed': '39.7'}
+
+    TRIAL 3:
+    {'node': '1', 'time': '31.4', 'data_units': 'KBytes', 'data_size': '1441', 'data_speed': '46.0'}
+    {'node': '2', 'time': '31.2', 'data_units': 'KBytes', 'data_size': '3873', 'data_speed': '124'}
+    {'node': '3', 'time': '30.7', 'data_units': 'KBytes', 'data_size': '6099', 'data_speed': '199'}
+    {'node': '4', 'time': '31.1', 'data_units': 'KBytes', 'data_size': '2369', 'data_speed': '76.1'}
+    {'node': '5', 'time': '32.8', 'data_units': 'KBytes', 'data_size': '38.0', 'data_speed': '1.16'}
+
+GROUPED:
+    TRIAL 1:
+    {'node': '2', 'time': '32.3', 'data_units': 'KBytes', 'data_size': '10933', 'data_speed': '339'}
+    {'node': '3', 'time': '30.0', 'data_units': 'KBytes', 'data_size': '2753', 'data_speed': '91.7'}
+    {'node': '4', 'time': '31.9', 'data_units': 'KBytes', 'data_size': '4583', 'data_speed': '144'}
+
+    TRIAL 2:
+    {'node': '2', 'time': '32.2', 'data_units': 'KBytes', 'data_size': '6771', 'data_speed': '210'}
+    {'node': '3', 'time': '31.1', 'data_units': 'KBytes', 'data_size': '1013', 'data_speed': '32.5'}
+    {'node': '4', 'time': '33.4', 'data_units': 'KBytes', 'data_size': '7493', 'data_speed': '224'}
+
+    TRIAL 3:
+    {'node': '2', 'time': '32.3', 'data_units': 'KBytes', 'data_size': '14443', 'data_speed': '447'}
+    {'node': '3', 'time': '30.3', 'data_units': 'KBytes', 'data_size': '1479', 'data_speed': '48.8'}
+    {'node': '4', 'time': '32.0', 'data_units': 'KBytes', 'data_size': '2973', 'data_speed': '93.0'}
+
+================================================================================
+================================================================================
+================================================================================
+
+SETUP:
+6 = Receiver
+1 -> 2 -> 6
+5+3 -> 4 -> 6
+
+CONTROL (NODES SENDING ON THEIR OWN AT SAME TIME):
+    TRIAL 1:
+    {'node': '1', 'time': '32.0', 'data_units': 'KBytes', 'data_size': '1051', 'data_speed': '32.8'}
+    {'node': '2', 'time': '32.7', 'data_units': 'KBytes', 'data_size': '3204', 'data_speed': '97.9'}
+    {'node': '3', 'time': '29.8', 'data_units': 'KBytes', 'data_size': '378', 'data_speed': '12.7'}
+    {'node': '4', 'time': '30.7', 'data_units': 'KBytes', 'data_size': '3552', 'data_speed': '116'}
+    {'node': '5', 'time': '31.6', 'data_units': 'KBytes', 'data_size': '1235', 'data_speed': '39.0'}
+
+    TRIAL 2:
+    {'node': '1', 'time': '31.7', 'data_units': 'KBytes', 'data_size': '998', 'data_speed': '31.5'}
+    {'node': '2', 'time': '31.8', 'data_units': 'KBytes', 'data_size': '4278', 'data_speed': '134'}
+    {'node': '3', 'time': '31.6', 'data_units': 'KBytes', 'data_size': '667', 'data_speed': '21.1'}
+    {'node': '4', 'time': '31.6', 'data_units': 'KBytes', 'data_size': '2925', 'data_speed': '92.7'}
+    {'node': '5', 'time': '31.8', 'data_units': 'KBytes', 'data_size': '1718', 'data_speed': '54.0'}
+
+    TRIAL 3:
+    {'node': '1', 'time': '30.7', 'data_units': 'KBytes', 'data_size': '2432', 'data_speed': '79.1'}
+    {'node': '2', 'time': '30.9', 'data_units': 'KBytes', 'data_size': '4254', 'data_speed': '138'}
+    {'node': '3', 'time': '30.2', 'data_units': 'KBytes', 'data_size': '1014', 'data_speed': '33.5'}
+    {'node': '4', 'time': '30.5', 'data_units': 'KBytes', 'data_size': '1776', 'data_speed': '58.2'}
+    {'node': '5', 'time': '31.0', 'data_units': 'KBytes', 'data_size': '1584', 'data_speed': '51.2'}
+
+GROUPED:
+    TRIAL 1:
+    {'node': '2', 'time': '37.3', 'data_units': 'KBytes', 'data_size': '10381', 'data_speed': '278'}
+    {'node': '4', 'time': '36.2', 'data_units': 'KBytes', 'data_size': '5781', 'data_speed': '160'}
+
+    TRIAL 2:
+    {'node': '2', 'time': '34.4', 'data_units': 'KBytes', 'data_size': '7796', 'data_speed': '227'}
+    {'node': '4', 'time': '33.1', 'data_units': 'KBytes', 'data_size': '5171', 'data_speed': '156'}
+
+    TRIAL 3:
+    {'node': '2', 'time': '33.3', 'data_units': 'KBytes', 'data_size': '12155', 'data_speed': '365'}
+    {'node': '4', 'time': '37.3', 'data_units': 'KBytes', 'data_size': '4288', 'data_speed': '115'}
