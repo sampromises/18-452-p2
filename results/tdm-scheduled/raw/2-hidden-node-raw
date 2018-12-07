@@ -165,21 +165,21 @@ TRIAL #1:
 [  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32896
 [  6] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38834
 [  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54520
-[  6]  0.0-32.6 sec  5.80 MBytes  1.49 Mbits/sec
-[  8]  0.0-33.1 sec  1.23 MBytes   313 Kbits/sec
-[  4]  0.0-33.2 sec  6.73 MBytes  1.70 Mbits/sec
-[  5]  0.0-36.8 sec  1.51 MBytes   344 Kbits/sec
-[  7]  0.0-33.6 sec   312 KBytes  76.1 Kbits/sec
+[  6]  0.0-32.6 sec  48.6 Mbits  1.49 Mbits/sec
+[  8]  0.0-33.1 sec  10360 Kbits   313 Kbits/sec
+[  4]  0.0-33.2 sec  56.44 Mbits  1.70 Mbits/sec
+[  5]  0.0-36.8 sec  12659 Kbits   344 Kbits/sec
+[  7]  0.0-33.6 sec  2556 Kbits  76.1 Kbits/sec
 [  9] local 192.168.2.54 port 8080 connected with 192.168.2.51 port 38836
 [  4] local 192.168.2.54 port 8080 connected with 192.168.2.50 port 32898
 [  6] local 192.168.2.54 port 8080 connected with 192.168.2.52 port 44744
 [  7] local 192.168.2.54 port 8080 connected with 192.168.2.53 port 54522
 [  5] local 192.168.2.54 port 8080 connected with 192.168.2.5 port 51290
-[  4]  0.0-28.3 sec  2.85 MBytes   845 Kbits/sec
-[  7]  0.0-28.7 sec  1.66 MBytes   484 Kbits/sec
-[  6]  0.0-29.2 sec  1.89 MBytes   543 Kbits/sec
-[  9]  0.0-29.2 sec  2.51 MBytes   721 Kbits/sec
-[  5]  0.0-29.4 sec  1.76 MBytes   503 Kbits/sec
+[  4]  0.0-28.3 sec  23913 Kbits   845 Kbits/sec
+[  7]  0.0-28.7 sec  13890 Kbits   484 Kbits/sec
+[  6]  0.0-29.2 sec  15855 Kbits   543 Kbits/sec
+[  9]  0.0-29.2 sec  21053 Kbits   721 Kbits/sec
+[  5]  0.0-29.4 sec  14788 Kbits   503 Kbits/sec
 
 TRIAL #2:
 
