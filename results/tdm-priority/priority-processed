@@ -1,3 +1,4 @@
+
 METHOD:
 Time slot = 0.1
 
@@ -9,12 +10,12 @@ Total time slots = 7
 [2][2][3][4][5][6][7]
 
 RESULTS:
-{'node': '2', 'time': '30.5', 'data_units': 'MBytes', 'data_size': '34.8', 'data_speed': '1.14'}
-{'node': '3', 'time': '30.4', 'data_units': 'MBytes', 'data_size': '12.9', 'data_speed': '0.42'}
-{'node': '4', 'time': '29.8', 'data_units': 'MBytes', 'data_size': '14.6', 'data_speed': '0.49'}
-{'node': '5', 'time': '28.9', 'data_units': 'MBytes', 'data_size': '14.8', 'data_speed': '0.51'}
-{'node': '6', 'time': '29.6', 'data_units': 'MBytes', 'data_size': '15.1', 'data_speed': '0.51'}
-{'node': '7', 'time': '29.7', 'data_units': 'MBytes', 'data_size': '12.9', 'data_speed': '0.43'}
+{'node': '2', 'time': '30.5', 'data_units': 'KBytes', 'data_size': '34800.0', 'data_speed': '1140.0'}
+{'node': '3', 'time': '30.4', 'data_units': 'KBytes', 'data_size': '12900.0', 'data_speed': '420.0'}
+{'node': '4', 'time': '29.8', 'data_units': 'KBytes', 'data_size': '14600.0', 'data_speed': '490.0'}
+{'node': '5', 'time': '28.9', 'data_units': 'KBytes', 'data_size': '14800.0', 'data_speed': '510.0'}
+{'node': '6', 'time': '29.6', 'data_units': 'KBytes', 'data_size': '15100.0', 'data_speed': '510.0'}
+{'node': '7', 'time': '29.7', 'data_units': 'KBytes', 'data_size': '12900.0', 'data_speed': '430.0'}
 
 ================================================================================
 SINGLE NODE - TRIPLE PRIORITY
@@ -24,12 +25,12 @@ Total time slots = 8
 [2][2][2][3][4][5][6][7]
 
 RESULTS:
-{'node': '2', 'time': '30.4', 'data_units': 'MBytes', 'data_size': '41.5', 'data_speed': '1.36'}
-{'node': '3', 'time': '30.3', 'data_units': 'MBytes', 'data_size': '17.2', 'data_speed': '0.57'}
-{'node': '4', 'time': '29.6', 'data_units': 'MBytes', 'data_size': '17.7', 'data_speed': '0.60'}
-{'node': '5', 'time': '28.2', 'data_units': 'MBytes', 'data_size': '9.05', 'data_speed': '0.32'}
-{'node': '6', 'time': '29.8', 'data_units': 'MBytes', 'data_size': '8.57', 'data_speed': '0.29'}
-{'node': '7', 'time': '29.9', 'data_units': 'MBytes', 'data_size': '8.23', 'data_speed': '0.28'}
+{'node': '2', 'time': '30.4', 'data_units': 'KBytes', 'data_size': '41500.0', 'data_speed': '1360.0'}
+{'node': '3', 'time': '30.3', 'data_units': 'KBytes', 'data_size': '17200.0', 'data_speed': '570.0'}
+{'node': '4', 'time': '29.6', 'data_units': 'KBytes', 'data_size': '17700.0', 'data_speed': '600.0'}
+{'node': '5', 'time': '28.2', 'data_units': 'KBytes', 'data_size': '9050.0', 'data_speed': '320.0'}
+{'node': '6', 'time': '29.8', 'data_units': 'KBytes', 'data_size': '8570.0', 'data_speed': '290.0'}
+{'node': '7', 'time': '29.9', 'data_units': 'KBytes', 'data_size': '8230.0', 'data_speed': '280.0'}
 
 ================================================================================
 SINGLE NODE - QUADRUPLE PRIORITY
@@ -39,12 +40,12 @@ Total time slots = 9
 [2][2][2][2][3][4][5][6][7]
 
 RESULTS:
-{'node': '2', 'time': '30.2', 'data_units': 'MBytes', 'data_size': '48.8', 'data_speed': '1.61'}
-{'node': '3', 'time': '29.6', 'data_units': 'MBytes', 'data_size': '8.53', 'data_speed': '0.29'}
-{'node': '4', 'time': '29.5', 'data_units': 'MBytes', 'data_size': '8.85', 'data_speed': '0.30'}
-{'node': '5', 'time': '29.2', 'data_units': 'MBytes', 'data_size': '10.1', 'data_speed': '0.35'}
-{'node': '6', 'time': '29.9', 'data_units': 'MBytes', 'data_size': '10.0', 'data_speed': '0.33'}
-{'node': '7', 'time': '29.9', 'data_units': 'MBytes', 'data_size': '9.92', 'data_speed': '0.33'}
+{'node': '2', 'time': '30.2', 'data_units': 'KBytes', 'data_size': '48800.0', 'data_speed': '1610.0'}
+{'node': '3', 'time': '29.6', 'data_units': 'KBytes', 'data_size': '8530.0', 'data_speed': '290.0'}
+{'node': '4', 'time': '29.5', 'data_units': 'KBytes', 'data_size': '8850.0', 'data_speed': '300.0'}
+{'node': '5', 'time': '29.2', 'data_units': 'KBytes', 'data_size': '10100.0', 'data_speed': '350.0'}
+{'node': '6', 'time': '29.9', 'data_units': 'KBytes', 'data_size': '10000.0', 'data_speed': '330.0'}
+{'node': '7', 'time': '29.9', 'data_units': 'KBytes', 'data_size': '9920.0', 'data_speed': '330.0'}
 
 ================================================================================
 TWO NODES - DOUBLE PRIORITY
@@ -54,12 +55,12 @@ Total time slots = 8
 [2][2][3][3][4][5][6][7]
 
 RESULTS:
-{'node': '2', 'time': '29.9', 'data_units': 'MBytes', 'data_size': '1', 'data_speed': '1.11'}
-{'node': '3', 'time': '30.2', 'data_units': 'MBytes', 'data_size': '0', 'data_speed': '1.09'}
-{'node': '4', 'time': '29.6', 'data_units': 'MBytes', 'data_size': '7', 'data_speed': '0.46'}
-{'node': '5', 'time': '28.3', 'data_units': 'MBytes', 'data_size': '96', 'data_speed': '0.25'}
-{'node': '6', 'time': '29.9', 'data_units': 'MBytes', 'data_size': '48', 'data_speed': '0.28'}
-{'node': '7', 'time': '29.8', 'data_units': 'MBytes', 'data_size': '49', 'data_speed': '0.28'}
+{'node': '2', 'time': '29.9', 'data_units': 'KBytes', 'data_size': '33100.0', 'data_speed': '1110.0'}
+{'node': '3', 'time': '30.2', 'data_units': 'KBytes', 'data_size': '33000.0', 'data_speed': '1090.0'}
+{'node': '4', 'time': '29.6', 'data_units': 'KBytes', 'data_size': '13700.0', 'data_speed': '460.0'}
+{'node': '5', 'time': '28.3', 'data_units': 'KBytes', 'data_size': '6960.0', 'data_speed': '250.0'}
+{'node': '6', 'time': '29.9', 'data_units': 'KBytes', 'data_size': '8480.0', 'data_speed': '280.0'}
+{'node': '7', 'time': '29.8', 'data_units': 'KBytes', 'data_size': '8490.0', 'data_speed': '280.0'}
 
 ================================================================================
 THREE NODES - DOUBLE  PRIORITY
@@ -69,12 +70,12 @@ Total time slots = 9
 [2][2][3][3][4][4][5][6][7]
 
 RESULTS:
-{'node': '2', 'time': '30.4', 'data_units': 'MBytes', 'data_size': '34.4', 'data_speed': '1.13'}
-{'node': '3', 'time': '30.5', 'data_units': 'MBytes', 'data_size': '19.3', 'data_speed': '0.63'}
-{'node': '4', 'time': '30.5', 'data_units': 'MBytes', 'data_size': '19.6', 'data_speed': '0.64'}
-{'node': '5', 'time': '28.8', 'data_units': 'MBytes', 'data_size': '9.58', 'data_speed': '0.33'}
-{'node': '6', 'time': '29.8', 'data_units': 'MBytes', 'data_size': '7.90', 'data_speed': '0.26'}
-{'node': '7', 'time': '29.6', 'data_units': 'MBytes', 'data_size': '7.83', 'data_speed': '0.26'}
+{'node': '2', 'time': '30.4', 'data_units': 'KBytes', 'data_size': '34400.0', 'data_speed': '1130.0'}
+{'node': '3', 'time': '30.5', 'data_units': 'KBytes', 'data_size': '19300.0', 'data_speed': '630.0'}
+{'node': '4', 'time': '30.5', 'data_units': 'KBytes', 'data_size': '19600.0', 'data_speed': '640.0'}
+{'node': '5', 'time': '28.8', 'data_units': 'KBytes', 'data_size': '9580.0', 'data_speed': '330.0'}
+{'node': '6', 'time': '29.8', 'data_units': 'KBytes', 'data_size': '7900.0', 'data_speed': '260.0'}
+{'node': '7', 'time': '29.6', 'data_units': 'KBytes', 'data_size': '7830.0', 'data_speed': '260.0'}
 
 ================================================================================
 TWO NODES - TRIPLE PRIORITY, TWO NODES - DOUBLE PRIORITY (STAGGERED)
@@ -84,9 +85,9 @@ Total time slots = 9
 [2][2][3][3][4][4][5][6][7]
 
 RESULTS:
-{'node': '2', 'time': '30.5', 'data_units': 'MBytes', 'data_size': '28.6', 'data_speed': '0.94'}
-{'node': '3', 'time': '30.5', 'data_units': 'MBytes', 'data_size': '25.0', 'data_speed': '0.82'}
-{'node': '4', 'time': '30.6', 'data_units': 'MBytes', 'data_size': '15.9', 'data_speed': '0.52'}
-{'node': '5', 'time': '29.1', 'data_units': 'MBytes', 'data_size': '18.7', 'data_speed': '0.64'}
-{'node': '6', 'time': '29.3', 'data_units': 'MBytes', 'data_size': '5.50', 'data_speed': '0.19'}
-{'node': '7', 'time': '29.1', 'data_units': 'MBytes', 'data_size': '6.97', 'data_speed': '0.24'}
+{'node': '2', 'time': '30.5', 'data_units': 'KBytes', 'data_size': '28600.0', 'data_speed': '940.0'}
+{'node': '3', 'time': '30.5', 'data_units': 'KBytes', 'data_size': '25000.0', 'data_speed': '820.0'}
+{'node': '4', 'time': '30.6', 'data_units': 'KBytes', 'data_size': '15900.0', 'data_speed': '520.0'}
+{'node': '5', 'time': '29.1', 'data_units': 'KBytes', 'data_size': '18700.0', 'data_speed': '640.0'}
+{'node': '6', 'time': '29.3', 'data_units': 'KBytes', 'data_size': '5500.0', 'data_speed': '190.0'}
+{'node': '7', 'time': '29.1', 'data_units': 'KBytes', 'data_size': '6970.0', 'data_speed': '240.0'}

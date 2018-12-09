@@ -12,11 +12,11 @@ SETUP:
 
 CONTROL (NODES SENDING ON THEIR OWN AT SAME TIME):
     TRIAL 1:
-    {'node': '1', 'time': '33.1', 'data_units': 'Kbits', 'data_size': '313', 'data_speed': '313'}
-    {'node': '2', 'time': '33.2', 'data_units': 'Mbits', 'data_size': '1.70', 'data_speed': '1.70'}
-    {'node': '3', 'time': '32.6', 'data_units': 'Mbits', 'data_size': '1.49', 'data_speed': '1.49'}
-    {'node': '4', 'time': '36.8', 'data_units': 'Kbits', 'data_size': '344', 'data_speed': '344'}
-    {'node': '5', 'time': '33.6', 'data_units': 'Kbits', 'data_size': '76.1', 'data_speed': '76.1'}
+    {'node': '1', 'time': '33.1', 'data_units': 'KBytes', 'data_size': '', 'data_speed': '39.13'}
+    {'node': '2', 'time': '33.2', 'data_units': 'KBytes', 'data_size': '', 'data_speed': '212.5'}
+    {'node': '3', 'time': '32.6', 'data_units': 'KBytes', 'data_size': '', 'data_speed': '186.25'}
+    {'node': '4', 'time': '36.8', 'data_units': 'KBytes', 'data_size': '', 'data_speed': '30.5'}
+    {'node': '5', 'time': '33.6', 'data_units': 'KBytes', 'data_size': '', 'data_speed': '9.51'}
 
     TRIAL 2:
     {'node': '1', 'time': '32.0', 'data_units': 'KBytes', 'data_size': '1216', 'data_speed': '38.0'}
